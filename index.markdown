@@ -10,8 +10,3 @@ title: Homepage
 
 This is my homepage in progress
 
-I like BTS
-
-![BTS](/E1hLEL3WUAIzsNo.jpeg) 
-
-[BTS](/E1hLEL3WUAIzsNo.jpeg) 
