@@ -8,5 +8,5 @@ title: Homepage
 
 ---
 
-This is my homepage in progress
+My homepage is in progress. Stay tuned
 
