@@ -5,4 +5,4 @@ permalink: /research/
 ---
 
 
-I study popgen
+Coming soon
