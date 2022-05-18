@@ -4,10 +4,9 @@
 # to show the content
 # or provide a link
 layout: default
-title: Home
 
 ---
 
-Hi, my name is Aigerim
+# Hi, my name is Aigerim
 
-I am a PhD student in the Computational Admixture [Genomics] (https://admixture.univie.ac.at) group at University of Vienna and this is my personal website. Here you can find out more about me.
+I am a PhD student in the Computational Admixture [Genomics]: https://admixture.univie.ac.at/ group at University of Vienna and this is my personal website. Here you can find out more about me.
