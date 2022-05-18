@@ -4,9 +4,8 @@
 # to show the content
 # or provide a link
 layout: page
-title: Homepage
+title: Hi, my name is Aigerim
 
 ---
 
-My homepage is in progress
-
+I am a PhD student in the [Computational Admixture Genomics group at University of Vienna] (https://admixture.univie.ac.at/) and this is my personal website. Here you can find out more about me.

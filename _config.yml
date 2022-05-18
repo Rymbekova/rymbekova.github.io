@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My Website
-email: rymbekova@example.com
-description: My own website is in progress! Stay tuned
+title: Aigerim Rymbekova
+email: aigerim.rymbekova@univie.ac.at
+description: My website is in progress! Stay tuned
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: rymbekova07
+github_username:  Rymbekova
 
 # Build settings
 theme: minima
