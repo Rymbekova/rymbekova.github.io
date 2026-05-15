@@ -13,10 +13,12 @@ Bioinformatician | Vienna, Austria | RWR+ Karte
 ## Experience
 
 **Researcher** — University of Vienna, Austria  
+
 *05/2022 – present*  
 Population genetics modeling in Python and R, software testing and independent project management
 
 **Research Intern** — Stanford University  
+
 *01/2021 – 01/2022*  
 Population genetics, complex statistics and analysis of large datasets
 
