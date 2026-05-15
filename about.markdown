@@ -29,6 +29,7 @@ Population genetics, complex statistics and analysis of large datasets
 *05/2022 – 05/2026*
 
 **Master of Science in Bioinformatics** — University of Bologna, Italy  
+
 *09/2019 – 02/2022*
 
 ---
