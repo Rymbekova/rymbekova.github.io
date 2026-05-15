@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+
+.site-header {
+  background-color: #2d6a4f;
+  border-top: 4px solid #1b4332;
+  border-bottom: none;
+}
+
+.site-title, .site-title:visited {
+  color: #ffffff !important;
+}
+
+.site-nav .page-link {
+  color: #d8f3dc !important;
+}
+
+.site-footer {
+  background-color: #1b4332;
+  color: #d8f3dc;
+  border-top: none;
+}
+
+.site-footer a {
+  color: #95d5b2;
+}
