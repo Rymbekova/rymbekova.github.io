@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: Aigerim Rymbekova
 email: aigerima.rymbekova at gmail.com
 description: My website is in progress! Stay tuned
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Rymbekova
+url: ""
+github_username: Rymbekova
 
 # Build settings
 theme: minima
