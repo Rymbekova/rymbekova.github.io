@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Aigerim Rymbekova
-email: aigerima.rymbekova at gmail.com
+email: aigerima.rymbekova@gmail.com
 description: My website is in progress! Stay tuned
 url: ""
 github_username: Rymbekova
-
-# Build settings
 theme: minima
+minima:
+  show_excerpts: false
+  
 plugins:
   - jekyll-feed
 
