@@ -24,7 +24,7 @@ Population genetics, complex statistics and analysis of large datasets
 
 ## Education
 
-**Doctor of Philosophy in Biology** — University of Vienna, Austria 
+**Doctor of Philosophy in Biology** — University of Vienna, Austria
 *05/2022 – 05/2026*
 
 **Master of Science in Bioinformatics** — University of Bologna, Italy  
