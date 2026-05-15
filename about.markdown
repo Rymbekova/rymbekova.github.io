@@ -6,7 +6,7 @@ permalink: /about/
 
 # Aigerim Rymbekova
 
-Bioinformatician | Wien | RWR+ Karte  
+Bioinformatician | Vienna, Austria | RWR+ Karte  
 
 ---
 
