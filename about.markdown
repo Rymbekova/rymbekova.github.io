@@ -12,7 +12,7 @@ Bioinformatician | Vienna, Austria | RWR+ Karte
 
 ## Experience
 
-**Researcher** — University of Vienna  
+**Researcher** — University of Vienna, Austria  
 *05/2022 – present*  
 Population genetics modeling in Python and R, software testing and independent project management
 
@@ -24,7 +24,7 @@ Population genetics, complex statistics and analysis of large datasets
 
 ## Education
 
-**Doctor of Philosophy in Biology** — University of Vienna  
+**Doctor of Philosophy in Biology** — University of Vienna, Austria 
 *05/2022 – 05/2026*
 
 **Master of Science in Bioinformatics** — University of Bologna, Italy  
