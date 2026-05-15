@@ -1,2 +1,2 @@
 # rymbekova.github.io
-A website built using Jekyll 
+My website built using Jekyll 
