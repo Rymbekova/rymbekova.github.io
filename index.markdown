@@ -7,6 +7,6 @@ layout: page
 
 ---
 
-Hi, my name is Aigerim
+Hi, my name is Aigerim!
 
-I am a PhD student in the Computational Admixture Genomics group at University of Vienna and this is my personal website. Here you can find out more about me.
+I am a bioinformatician and this is my personal website. Here you can find out more about me.
