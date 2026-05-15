@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+# Aigerim Rymbekova
+
 Bioinformatician | Vienna, Austria | RWR+ Karte  
 
 ---
