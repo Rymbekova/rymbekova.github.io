@@ -42,4 +42,4 @@ Population genetics, complex statistics and analysis of large datasets
 
 ## Languages
 
-Russian (native), English (C1), German (B1)
+Russian (native), English (C1), German (B1), Italian (B1)
