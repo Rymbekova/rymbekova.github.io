@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# Aigerim Rymbekova
-
 Bioinformatician | Vienna, Austria | Free access to the Austrian labour market
 
 ---
