@@ -6,7 +6,7 @@ permalink: /about/
 
 # Aigerim Rymbekova
 
-Bioinformatician | Vienna, Austria | RWR+ Karte  
+Bioinformatician | Vienna, Austria | Free access to the Austrian labour market
 
 ---
 
@@ -17,7 +17,7 @@ Bioinformatician | Vienna, Austria | RWR+ Karte
 *05/2022 – present*  
 Population genetics modeling in Python and R, software testing and independent project management
 
-**Research Intern** — Stanford University  
+**Research Intern** — Stanford University, USA
 
 *01/2021 – 01/2022*  
 Population genetics, complex statistics and analysis of large datasets
@@ -46,4 +46,4 @@ Population genetics, complex statistics and analysis of large datasets
 
 ## Languages
 
-Russian (native), English (C1), German (B1), Italian (B1)
+Russian (native), English (C2), German (B1), Italian (B1)
