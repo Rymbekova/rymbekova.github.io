@@ -1,0 +1,24 @@
+jobs:
+  - role: Researcher
+    org: University of Vienna · Austria
+    dates: 2022 — Present
+    points:
+      - Built population-genetics models in Python and R
+      - Led software testing for research code
+      - Managed independent research projects end to end
+      - "[Add one measurable result]"
+
+  - role: Research Intern
+    org: Stanford University · USA
+    dates: 2021 — 2022
+    points:
+      - Population-genetics research
+      - Complex statistics and analysis of large datasets
+
+education:
+  - degree: PhD in Biology
+    school: University of Vienna
+    dates: 2022 — 2026
+  - degree: MSc in Bioinformatics
+    school: University of Bologna
+    dates: 2019 — 2022

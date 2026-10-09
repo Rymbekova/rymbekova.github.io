@@ -1,0 +1,167 @@
+---
+layout: default
+---
+
+<!-- HERO -->
+<section id="top" class="container hero">
+  <div class="hero-text">
+    <p class="eyebrow">{{ site.tagline }} · Vienna, Austria</p>
+    <h1>Turning large-scale genomic data into clear, reproducible answers.</h1>
+    <p class="lead">I'm Aigerim, a bioinformatician with a PhD in Biology from the University of Vienna. I build statistical models and analysis pipelines in Python and R, and I'm now bringing that work to industry.</p>
+    <div class="badges">
+      <span class="badge badge-accent"><span class="dot"></span>Open to industry roles</span>
+      <span class="badge">Free access to the Austrian labour market</span>
+    </div>
+    <div class="actions">
+      <a class="btn btn-primary" href="#contact">Get in touch</a>
+      {%- if site.cv %}
+      <a class="btn btn-outline" href="{{ site.cv | relative_url }}">{% include icon.html name="download" %} Download CV</a>
+      {%- endif %}
+      <div class="icon-links">
+        <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub">{% include icon.html name="github" %}</a>
+        {%- if site.linkedin != "" %}
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>
+        {%- endif %}
+        <a href="https://orcid.org/{{ site.orcid }}" aria-label="ORCID">{% include icon.html name="orcid" %}</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Portrait of Aigerim Rymbekova" width="320" height="400">
+  </div>
+</section>
+
+<!-- TRAINED AT -->
+<div class="band">
+  <div class="container trained">
+    <span class="label">Trained at</span>
+    <span>University of Vienna</span>
+    <span>Stanford University</span>
+    <span>University of Bologna</span>
+  </div>
+</div>
+
+<!-- WHAT I DO -->
+<section id="work" class="container section section-top">
+  <p class="eyebrow">What I do</p>
+  <h2 class="narrow">From raw sequencing data to decisions you can trust.</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">{% include icon.html name="dna" %}</div>
+      <h3>Genomic data analysis</h3>
+      <p>NGS data analysis and rigorous statistics on large, complex datasets.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">{% include icon.html name="pipeline" %}</div>
+      <h3>Reproducible pipelines</h3>
+      <p>Nextflow and Snakemake workflows, containerised with Docker and scaled on Slurm clusters.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">{% include icon.html name="chart" %}</div>
+      <h3>Statistical modelling</h3>
+      <p>Population-genetics models and machine learning in Python (pandas, scikit-learn) and R (tidyverse, Bioconductor).</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="container section section-bottom">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">Selected projects</p>
+      <h2>Problems I've solved</h2>
+    </div>
+    <a href="https://github.com/{{ site.github_username }}">All code on GitHub →</a>
+  </div>
+  <div class="cards projects">
+    {%- for p in site.data.projects %}
+    <article class="project">
+      {%- if p.image != "" %}
+      <img class="project-figure" src="{{ p.image | relative_url }}" alt="Figure from {{ p.title }}" loading="lazy">
+      {%- else %}
+      <div class="project-figure placeholder">[Figure from this project]</div>
+      {%- endif %}
+      <div class="project-body">
+        <div class="tags">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+        <h3>{{ p.title }}</h3>
+        <dl>
+          {%- if p.problem != "" %}<div><dt>Problem:</dt> <dd>{{ p.problem }}</dd></div>{% endif %}
+          {%- if p.approach != "" %}<div><dt>Approach:</dt> <dd>{{ p.approach }}</dd></div>{% endif %}
+          {%- if p.outcome != "" %}<div><dt>Outcome:</dt> <dd>{{ p.outcome }}</dd></div>{% endif %}
+        </dl>
+        <div class="project-links">
+          {%- if p.code != "" %}<a href="{{ p.code }}">Code →</a>{% endif %}
+          {%- if p.paper != "" %}<a href="{{ p.paper }}">Paper →</a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="band">
+  <div class="container section split">
+    <div class="split-side">
+      <p class="eyebrow">Experience</p>
+      <h2>Where I've worked</h2>
+      <p class="muted">Five years of hands-on research across Europe and the US.</p>
+    </div>
+    <div class="split-main">
+      {%- for job in site.data.experience.jobs %}
+      <div class="row">
+        <p class="row-date">{{ job.dates }}</p>
+        <div class="row-body">
+          <h3>{{ job.role }}</h3>
+          <p class="org">{{ job.org }}</p>
+          <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+      {%- endfor %}
+      <div class="row-edu">
+        <p class="label">Education</p>
+        <div class="edu">
+          {%- for e in site.data.experience.education %}
+          <div class="edu-card">
+            <p class="strong">{{ e.degree }}</p>
+            <p class="muted small">{{ e.school }} · {{ e.dates }}</p>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="container section split">
+  <div class="split-side">
+    <p class="eyebrow">Toolkit</p>
+    <h2>Skills &amp; languages</h2>
+  </div>
+  <div class="split-main skills">
+    {%- for g in site.data.skills %}
+    <div class="skill-row">
+      <p class="skill-label">{{ g.label }}</p>
+      <div class="pills">{% for s in g.items %}<span class="pill">{{ s }}</span>{% endfor %}</div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-wrap">
+  <div class="container contact">
+    <div class="contact-text">
+      <h2>Let's talk.</h2>
+      <p>I'm looking for bioinformatics and data science roles in industry. Email is the fastest way to reach me.</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-light" href="mailto:{{ site.email }}">{% include icon.html name="mail" %} Email me</a>
+      {%- if site.linkedin != "" %}
+      <a class="btn btn-ghost" href="{{ site.linkedin }}">LinkedIn</a>
+      {%- endif %}
+      <a class="btn btn-ghost" href="https://github.com/{{ site.github_username }}">GitHub</a>
+    </div>
+  </div>
+</section>

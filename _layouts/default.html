@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <div class="nav-links">
+        <a href="{{ '/#work' | relative_url }}">Expertise</a>
+        <a href="{{ '/#projects' | relative_url }}">Projects</a>
+        <a href="{{ '/#experience' | relative_url }}">Experience</a>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+        {%- if site.cv %}
+        <a class="btn btn-outline btn-sm" href="{{ site.cv | relative_url }}">{% include icon.html name="download" %} Download CV</a>
+        {%- endif %}
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© {{ site.time | date: "%Y" }} {{ site.title }} · Vienna, Austria</span>
+      <span>
+        <a href="https://orcid.org/{{ site.orcid }}">ORCID</a> ·
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        {%- if site.linkedin != "" %} · <a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

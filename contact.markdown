@@ -1,8 +1,6 @@
 ---
-layout: page
-title: Contact
+layout: redirect
 permalink: /contact/
+redirect_to: /#contact
+sitemap: false
 ---
-
-
-Reach me at aigerima.rymbekova at gmail.com
