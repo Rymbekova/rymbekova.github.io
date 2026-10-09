@@ -1,8 +1,8 @@
 - label: Programming
-  items: [Python, pandas, scikit-learn, R, tidyverse, Bioconductor, Bash]
+  items: [Python, pandas, scikit-learn, R, tidyverse, Bioconductor, Bash, SQL]
 - label: Bioinformatics
   items: [NGS data analysis, Population genetics, Nextflow, Snakemake]
 - label: Infrastructure
-  items: [Git, Docker, Slurm, SQL]
+  items: [Git, Docker, Slurm]
 - label: Languages
   items: [Russian · Native, English · C2, German · B1, Italian · B1]
