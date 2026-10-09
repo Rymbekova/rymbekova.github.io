@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!-- HERO -->
 <section id="top" class="container hero">
   <div class="hero-text">
     <p class="eyebrow">{{ site.tagline }}</p>
@@ -28,7 +27,6 @@ layout: default
   </div>
 </section>
 
-<!-- TRAINED AT -->
 <div class="band">
   <div class="container trained">
     <span class="label">Trained at</span>
@@ -38,8 +36,7 @@ layout: default
   </div>
 </div>
 
-<!-- WHAT I DO -->
-<section id="work" class="container section section-top">
+<section id="work" class="container section{% if site.data.projects.size > 0 %} section-top{% endif %}">
   <p class="eyebrow">What I do</p>
   <h2 class="narrow">From raw data into reliable insights.</h2>
   <div class="cards">
@@ -61,7 +58,7 @@ layout: default
   </div>
 </section>
 
-<!-- PROJECTS -->
+{%- if site.data.projects.size > 0 %}
 <section id="projects" class="container section section-bottom">
   <div class="section-head">
     <div>
@@ -76,7 +73,7 @@ layout: default
       {%- if p.image != "" %}
       <img class="project-figure" src="{{ p.image | relative_url }}" alt="Figure from {{ p.title }}" loading="lazy">
       {%- else %}
-      <div class="project-figure placeholder">[Figure from this project]</div>
+      <div class="project-figure placeholder"></div>
       {%- endif %}
       <div class="project-body">
         <div class="tags">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
@@ -95,8 +92,8 @@ layout: default
     {%- endfor %}
   </div>
 </section>
+{%- endif %}
 
-<!-- EXPERIENCE -->
 <section id="experience" class="band">
   <div class="container section split">
     <div class="split-side">
@@ -129,7 +126,6 @@ layout: default
   </div>
 </section>
 
-<!-- SKILLS -->
 <section class="container section split">
   <div class="split-side">
     <p class="eyebrow">Toolkit</p>
@@ -145,7 +141,6 @@ layout: default
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="contact-wrap">
   <div class="container contact">
     <div class="contact-text">

@@ -16,7 +16,9 @@
       <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <div class="nav-links">
         <a href="{{ '/#work' | relative_url }}">Expertise</a>
+        {%- if site.data.projects.size > 0 %}
         <a href="{{ '/#projects' | relative_url }}">Projects</a>
+        {%- endif %}
         <a href="{{ '/#experience' | relative_url }}">Experience</a>
         <a href="{{ '/#contact' | relative_url }}">Contact</a>
       </div>

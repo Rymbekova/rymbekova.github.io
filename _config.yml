@@ -1,4 +1,3 @@
-# Site settings — edit these and the site updates everywhere.
 title: Aigerim Rymbekova
 tagline: Data Scientist
 description: >-
@@ -9,13 +8,11 @@ url: "https://rymbekova.github.io"
 baseurl: ""
 lang: en_US
 
-# Contact & links (leave linkedin empty to hide it)
 email: aigerima.rymbekova@gmail.com
 github_username: Rymbekova
 orcid: 0009-0001-5461-5161
 linkedin: "https://www.linkedin.com/in/aigerim-r-07b2b3170/"
 
-# Used for link previews on LinkedIn, Slack etc.
 image: /assets/profile.jpg
 author: Aigerim Rymbekova
 
