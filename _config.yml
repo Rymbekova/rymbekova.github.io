@@ -15,9 +15,6 @@ github_username: Rymbekova
 orcid: 0009-0001-5461-5161
 linkedin: ""            # e.g. https://www.linkedin.com/in/your-name/
 
-# Put your CV at assets/cv.pdf (or change this path)
-cv: /assets/cv.pdf
-
 # Used for link previews on LinkedIn, Slack etc.
 image: /assets/profile.jpg
 author: Aigerim Rymbekova

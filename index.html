@@ -14,9 +14,6 @@ layout: default
     </div>
     <div class="actions">
       <a class="btn btn-primary" href="#contact">Get in touch</a>
-      {%- if site.cv %}
-      <a class="btn btn-outline" href="{{ site.cv | relative_url }}">{% include icon.html name="download" %} Download CV</a>
-      {%- endif %}
       <div class="icon-links">
         <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub">{% include icon.html name="github" %}</a>
         {%- if site.linkedin != "" %}
@@ -48,7 +45,7 @@ layout: default
   <div class="cards">
     <div class="card">
       <div class="card-icon">{% include icon.html name="dna" %}</div>
-      <h3>Dta analysis</h3>
+      <h3>Data analysis</h3>
       <p>Rigorous statistics on large, complex datasets.</p>
     </div>
     <div class="card">
