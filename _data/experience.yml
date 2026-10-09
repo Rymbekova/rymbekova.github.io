@@ -1,22 +1,20 @@
 jobs:
-  - role: Researcher
+  - role: Bioinfromatician
     org: University of Vienna · Austria
-    dates: 2022 — Present
+    dates: 2022 — 2026
     points:
-      - Built population-genetics models in Python and R
-      - Led software testing for research code
-      - Managed independent research projects end to end
-      - "[Add one measurable result]"
+      - Built automated data pipelines integrating 10+ TB of heterogeneous large-scale data, enabling in-depth analyses that identified key trends and patterns, resulting in 2 peer-reviewed publications
+      - Developed and rolled out 5 frameworks to standardize data quality, validation, and reproducibility across datasets, ensuring the validity of key metrics and supporting 4 additional peer-reviewed publications
+      - Mentored 3 junior team members on independent, data-driven projects from initial concept through final delivery
 
   - role: Research Intern
     org: Stanford University · USA
     dates: 2021 — 2022
     points:
-      - Population-genetics research
-      - Complex statistics and analysis of large datasets
+      - Applied and evaluated machine learning methods to identify patterns and predict outcomes from large, diverse datasets, generating insights that contributed to a peer-reviewed publication
 
 education:
-  - degree: PhD in Biology
+  - degree: PhD in Bioinformatics
     school: University of Vienna
     dates: 2022 — 2026
   - degree: MSc in Bioinformatics
