@@ -2,8 +2,8 @@
 title: Aigerim Rymbekova
 tagline: Data Scientist
 description: >-
-  Bioinformatician in Vienna with a PhD from the University of Vienna.
-  NGS data analysis, reproducible pipelines and statistical modelling in Python and R.
+  Data Scientist in Vienna with a PhD from the University of Vienna.
+  Data analysis, reproducible pipelines and statistical modelling in Python and R.
   Open to industry roles.
 url: "https://rymbekova.github.io"
 baseurl: ""
@@ -13,7 +13,7 @@ lang: en_US
 email: aigerima.rymbekova@gmail.com
 github_username: Rymbekova
 orcid: 0009-0001-5461-5161
-linkedin: ""            # e.g. https://www.linkedin.com/in/your-name/
+linkedin: "https://www.linkedin.com/in/aigerim-r-07b2b3170/"
 
 # Used for link previews on LinkedIn, Slack etc.
 image: /assets/profile.jpg
